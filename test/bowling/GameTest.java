@@ -19,4 +19,10 @@ class GameTest {
 	void noRoll() {
 		assertEquals(0, game.score());
 	}
+	
+	@Test
+	void manyNullRoll() {
+		for(int i=0; i<20; i++) game.roll(0);
+		assertEquals(0, game.score());
+	}
 }
