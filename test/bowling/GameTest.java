@@ -70,6 +70,13 @@ class GameTest {
 		makeRolls(nbQuillesList);
 		assertEquals(122, game.score());
 	}
+	
+	@Test
+	void anotherGeneralGame() {	
+		int[] nbQuillesList = {1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 8, 8}; 
+		makeRolls(nbQuillesList);
+		assertEquals(131, game.score());
+	}
 }
 
 

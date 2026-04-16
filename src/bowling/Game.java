@@ -4,6 +4,7 @@ public class Game {
 	
 	private int curScore = 0;
 	private int scoreInRound = 0;
+	private int nbRound = 0;
 	private boolean firstInRound = false;
 	private int[] compteDouble = {1, 1};
 	
@@ -16,11 +17,13 @@ public class Game {
 			}
 		}
 		
-		if(firstInRound = !firstInRound)
+		if(firstInRound = !firstInRound) {
+			nbRound++;
 			scoreInRound=0;
+		}
 		
 		scoreInRound+=a;
-		curScore+=compteDouble[0]*a;
+		curScore+=(nbRound>10?1:compteDouble[0])*a;
 		
 		compteDouble[0] = compteDouble[1];
 		compteDouble[1] = 1;

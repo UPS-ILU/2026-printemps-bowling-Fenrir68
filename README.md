@@ -24,10 +24,10 @@
   ### Niveau 3
   - [x] roll(10) puis roll(3), roll(4) et 16 roll(0) donne un score de 24
   ### Niveau 4
-  - [ ] roll(1) puis roll(2), roll(10), roll(0), roll(10), roll(4), roll(2), roll(0), roll(10), 
+  - [x] roll(1) puis roll(2), roll(10), roll(0), roll(10), roll(4), roll(2), roll(0), roll(10), 
        roll(6), roll(2), roll(0), roll(10), roll(6), roll(4), roll(8), roll(2), roll(2), roll(7) donne un score de 122
   ### Niveau 5
-  - [ ] roll(1) puis roll(2), roll(10), roll(0), roll(10), roll(4), roll(2), roll(0), roll(10), 
+  - [x] roll(1) puis roll(2), roll(10), roll(0), roll(10), roll(4), roll(2), roll(0), roll(10), 
        roll(6), roll(2), roll(0), roll(10), roll(6), roll(4), roll(8), roll(2), roll(2), roll(8), roll(8) donne un score de 131
   ### Niveau 6
   - [ ] 12 roll(10) donne un score de 300
