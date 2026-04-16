@@ -18,6 +18,10 @@ class GameTest {
 		for(int i=0; i<nbRoll; i++) game.roll(nbQuilles);
 	}
 	
+	void makeRolls(int[] nbQuillesList) {
+		for(int nbQ : nbQuillesList) game.roll(nbQ);
+	}
+	
 	@Test
 	void noRoll() {
 		assertEquals(0, game.score());
@@ -59,4 +63,31 @@ class GameTest {
 		makeRolls(16, 0);
 		assertEquals(24, game.score());
 	}
+	
+	@Test
+	void generalGame() {
+		int[] nbQuillesList = {1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 7}; 
+		makeRolls(nbQuillesList);
+		assertEquals(122, game.score());
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
