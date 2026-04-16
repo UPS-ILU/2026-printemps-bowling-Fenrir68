@@ -41,4 +41,13 @@ class GameTest {
 		makeRolls(10, 2);
 		assertEquals(30, game.score());
 	}
+	
+	@Test
+	void spareTest() {
+		game.roll(7);
+		game.roll(3);
+		game.roll(4);
+		makeRolls(17, 0);
+		assertEquals(18, game.score());
+	}
 }
