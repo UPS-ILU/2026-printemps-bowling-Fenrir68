@@ -15,8 +15,8 @@
 
 ## Backlog:
   ### Niveau 1
-  - [ ] Entrée vide doit donner un score de 0
-  - [ ] 20 roll(0) doit donner un score de 0
+  - [x] Entrée vide doit donner un score de 0
+  - [x] 20 roll(0) doit donner un score de 0
   - [ ] 20 roll(1) doit donner un score de 20
   - [ ] 10 roll(1) et 10 roll(2) doit donner un score de 30
   ### Niveau 2
