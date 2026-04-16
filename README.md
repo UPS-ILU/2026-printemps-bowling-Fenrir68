@@ -18,7 +18,7 @@
   - [x] Entrée vide doit donner un score de 0
   - [x] 20 roll(0) doit donner un score de 0
   - [x] 20 roll(1) doit donner un score de 20
-  - [ ] 10 roll(1) et 10 roll(2) doit donner un score de 30
+  - [x] 10 roll(1) et 10 roll(2) doit donner un score de 30
   ### Niveau 2
   - [ ] roll(7) puis roll(3), roll(4) et 17 roll(0) donne un score de 18
   ### Niveau 3
