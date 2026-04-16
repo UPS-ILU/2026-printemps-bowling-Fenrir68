@@ -5,16 +5,25 @@ public class Game {
 	private int curScore = 0;
 	private int scoreInRound = 0;
 	private boolean firstInRound = false;
-	private boolean isPrevSpare = false;
+	private int[] compteDouble = {1, 1};
 	
 	void roll(int a) {
-		isPrevSpare = scoreInRound==10;
+		if(scoreInRound==10) {
+			compteDouble[0]+=1;
+			if(firstInRound) {
+				compteDouble[1] += 1;
+				firstInRound = false;
+			}
+		}
 		
 		if(firstInRound = !firstInRound)
 			scoreInRound=0;
 		
 		scoreInRound+=a;
-		curScore+=(isPrevSpare ? 2*a : a);
+		curScore+=compteDouble[0]*a;
+		
+		compteDouble[0] = compteDouble[1];
+		compteDouble[1] = 1;
 	}
 	
 	int score() {

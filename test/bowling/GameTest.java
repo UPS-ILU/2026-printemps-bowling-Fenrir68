@@ -50,4 +50,13 @@ class GameTest {
 		makeRolls(17, 0);
 		assertEquals(18, game.score());
 	}
+	
+	@Test
+	void strikeTest() {
+		game.roll(10);
+		game.roll(3);
+		game.roll(4);
+		makeRolls(16, 0);
+		assertEquals(24, game.score());
+	}
 }

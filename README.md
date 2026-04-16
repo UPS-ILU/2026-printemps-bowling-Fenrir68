@@ -22,7 +22,7 @@
   ### Niveau 2
   - [x] roll(7) puis roll(3), roll(4) et 17 roll(0) donne un score de 18
   ### Niveau 3
-  - [ ] roll(10) puis roll(3), roll(4) et 16 roll(0) donne un score de 24
+  - [x] roll(10) puis roll(3), roll(4) et 16 roll(0) donne un score de 24
   ### Niveau 4
   - [ ] roll(1) puis roll(2), roll(10), roll(0), roll(10), roll(4), roll(2), roll(0), roll(10), 
        roll(6), roll(2), roll(0), roll(10), roll(6), roll(4), roll(8), roll(2), roll(2), roll(7) donne un score de 122
